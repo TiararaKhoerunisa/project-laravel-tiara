@@ -13,9 +13,9 @@
             <h1 class="text-2xl font-bold">CinemaTicket</h1>
             <ul class="flex space-x-4">
                 <li><a href="#" class="hover:text-gray-300">Home</a></li>
-                <li><a href="#" class="hover:text-gray-300">About</a></li>
+                <li><a href="{{ route('about') }}" class="hover:text-gray-300">About</a></li>
                 <li><a href="#" class="hover:text-gray-300">Movies</a></li>
-                <li><a href="#" class="hover:text-gray-300">Contact</a></li>
+                <li><a href="{{ route('login') }}" class="hover:text-gray-300">Login</a></li>
             </ul>
         </nav>
     </header>

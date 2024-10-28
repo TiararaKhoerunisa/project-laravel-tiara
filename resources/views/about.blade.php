@@ -7,8 +7,11 @@
     @vite('resources/css/app.css')
 </head>
 <body>
-<h1 class="text= 3x1 text-orange-600 font-bold underline p-7z bg-red-200 flex justify-center">
-    Hello world!
+<h1 class="text-teal-100 font-bold underline bg-slate-700 text-3xl flex justify-center ">
+    Hello, Im {{ $name }}!!!
   </h1>
+  <p class="text-teal-100 font-bold underline bg-slate-700 text-3xl flex justify-center ">
+    I live in {{ $address }}, and my email is {{ $email }}
+</p>
 </body>
 </html>
